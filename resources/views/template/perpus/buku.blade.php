@@ -9,7 +9,7 @@
               <!-- /.card-header -->
               <!-- form start -->
               <form action="/buku/store" method="POST">
-                @csrf
+                @csrf 
                 <div class="card-body">
                   <div class="form-group">
                     <label for="exampleInputEmail1">Kode Buku</label>
@@ -32,11 +32,4 @@
                 </div>
               </form>
             </div>
-
-<!-- jQuery -->
-<script src="{{ asset('adminLte/plugins/jquery/jquery.min.js')}}"></script>
-<!-- Bootstrap 4 -->
-<script src="{{ asset('adminLte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<!-- AdminLTE App -->
-<script src="{{ asset('adminLte/dist/js/adminlte.min.js')}}"></script>
 @endsection

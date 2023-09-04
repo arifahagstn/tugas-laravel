@@ -1,8 +1,8 @@
-@extends('template.master')
+<!-- @extends('template.master')
 
 @section('content')
     <h1>hi</h1>
-@endsection
+@endsection -->
 
 <!-- <div class="content-wrapper"> -->
     <!-- Content Header (Page header) -->

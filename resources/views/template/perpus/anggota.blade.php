@@ -4,7 +4,7 @@
 
 <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Form Output Data Anggota</h3>
+                <h3 class="card-title">Form Input Data Anggota</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
@@ -36,11 +36,4 @@
                 </div>
               </form>
             </div>
-
-<!-- jQuery -->
-<script src="{{ asset('adminLte/plugins/jquery/jquery.min.js')}}"></script>
-<!-- Bootstrap 4 -->
-<script src="{{ asset('adminLte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-<!-- AdminLTE App -->
-<script src="{{ asset('adminLte/dist/js/adminlte.min.js')}}"></script>
 @endsection

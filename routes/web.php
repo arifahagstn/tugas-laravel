@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthorController;
+use App\Http\Controllers\AnggotaController;
+use App\Http\Controllers\BukuController;
+use App\Http\Controllers\PetugasController;
 
 
 /*
@@ -15,7 +17,11 @@ use App\Http\Controllers\AuthorController;
 |
 */
 
-Route::get('/', [AuthorController::class, 'index'])->name('index');
-Route::get('/anggota', [AuthorController::class, 'anggota'])->name('anggota');
-Route::get('/buku', [AuthorController::class, 'buku'])->name('buku');
-Route::get('/petugas', [AuthorController::class, 'petugas'])->name('petugas');
+Route::get('/', function () {
+    return view('template.master');
+})->name('master');
+
+// Route::get('/', [AuthorController::class, 'index'])->name('index');
+Route::get('/anggota', [AnggotaController::class, 'create'])->name('anggota');
+Route::get('/buku', [BukuController::class, 'create'])->name('buku');
+Route::get('/petugas', [PetugasController::class, 'create'])->name('petugas');
