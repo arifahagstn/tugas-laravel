@@ -4,7 +4,7 @@
 
 <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Form Input Data Anggota</h3>
+                <h3 class="card-title">Form Output Data Anggota</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
