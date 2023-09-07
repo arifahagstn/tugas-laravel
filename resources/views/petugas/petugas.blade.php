@@ -1,6 +1,6 @@
 @extends('template.master')
 
-@section('title', 'petugas')
+@section('title', 'Petugas')
 
 @section('content')
 <div class="card card-primary">
@@ -26,6 +26,7 @@
 
                 <div class="card-footer">
                   <button type="submit" name="submit" value="Save" class="btn btn-primary">Submit</button>
+                  <button type="submit" name="submit" value="Save" class="btn btn-primary">Reset</button>
                 </div>
               </form>
             </div>
