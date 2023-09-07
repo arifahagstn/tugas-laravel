@@ -1,5 +1,7 @@
 @extends('template.master')
 
+@section('title', 'anggota')
+
 @section('content')
 
 <div class="card card-primary">

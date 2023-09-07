@@ -1,5 +1,7 @@
 @extends('template.master')
 
+@section('title', 'petugas')
+
 @section('content')
 <div class="card card-primary">
               <div class="card-header">
