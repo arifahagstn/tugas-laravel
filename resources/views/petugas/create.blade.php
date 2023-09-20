@@ -9,7 +9,7 @@
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form action="/petugas/store" method="POST">
+              <form action="{{ route('petugas.store') }}" method="POST">
                 @csrf
                 <div class="card-body">
                   <div class="form-group">

@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('nama_petugas', 50);
             $table->string('jabatan_petugas', 50);
             $table->char('no_telp_petugas', 13);
-            $table->string('alamat_anggota', 100);
+            $table->string('alamat_petugas', 100);
             $table->timestamps();
         });
     }
